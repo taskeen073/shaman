@@ -6,7 +6,6 @@ import 'package:flutter_application_1/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(MyApp());
-    //sada
 
     expect(find.text('0'), findsOneWidget);
     expect(find.text('1'), findsNothing);
@@ -16,6 +15,5 @@ void main() {
 
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
-    expect(find.text('2'), findsNothing);
   });
 }
